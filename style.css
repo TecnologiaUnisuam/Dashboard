@@ -24,7 +24,7 @@ a{
   width: 100vw;
   margin: 0 auto;
   padding: 10px 25px;
-	background:url(img/background/BackgroundTopo2.png);
+	background:url(img/background/BackgroundTopo.png);
   /* background-color: #FF7514; */
   background-size: cover;
   background-position: center;
@@ -44,9 +44,9 @@ a{
   grid-template-columns: 1fr;
   border-radius: 15px;
 }
-#dashboard1{
+/* #dashboard1{
   padding-top: 20px;
-}
+} */
 #dashboard2,#dashboard3{
   padding-top: 30px;
 }
