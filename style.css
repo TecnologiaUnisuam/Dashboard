@@ -65,11 +65,14 @@ a{
 }
 .linkDashboard{
   color: #000000;
+  padding-bottom: 1px;
+  border-bottom: 3px solid #0F96AE;
 }
 .linkDashboard:hover{
   color: #000000;
   font-weight: 600;
-  text-decoration: underline #F5C200 2px;
+  padding-bottom: 1px;
+  border-bottom: 3px solid #004070;
   text-underline-position: under;
 }
 .linkDashboard:active{
