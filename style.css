@@ -42,7 +42,7 @@ a{
   padding: 15px 10px;
   display: grid;
   grid-template-columns: 1fr;
-  border-radius: 15px;
+  border-radius: 1px;
 }
 /* #dashboard1{
   padding-top: 20px;
@@ -58,10 +58,10 @@ a{
   grid-template-columns: 1fr 1fr;
 }
 .nomeTopoDashboard{
-  padding: 15px 0px 5px 10px;
+  padding: 25px 0px 2px 20px;
 }
 .nomeDashboard{
-  padding: 3px 0px 3px 20px;
+  padding: 3px 0px 3px 30px;
 }
 .linkDashboard{
   color: #000000;
