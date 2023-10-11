@@ -44,36 +44,39 @@ a{
   grid-template-columns: 1fr;
   border-radius: 1px;
 }
-/* #dashboard1{
-  padding-top: 20px;
-} */
-#dashboard2,#dashboard3{
-  padding-top: 30px;
+.dashboard{
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ffffffab;
+  border-radius: 5px;
 }
 .nomeTopoDashboards{
-  padding-bottom: 3px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
 }
 .dashboardColuna{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .nomeTopoDashboard{
+  font-size: 25px;
+  font-weight: bold;
   padding: 25px 0px 2px 20px;
 }
 .nomeDashboard{
-  padding: 3px 0px 3px 30px;
+  text-align: center;
+  padding: 13px 0px 13px 30px;
 }
 .linkDashboard{
-  color: #000000;
-  padding-bottom: 1px;
-  border-bottom: 3px solid #0F96AE;
+  color: #ffffff;
+  background-color: #EF7D00;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 50px;
 }
 .linkDashboard:hover{
-  color: #000000;
-  font-weight: 600;
-  padding-bottom: 1px;
-  border-bottom: 3px solid #004070;
-  text-underline-position: under;
+  background-color: #EA5A33;
 }
 .linkDashboard:active{
   font-weight: bolder;
