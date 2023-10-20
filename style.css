@@ -38,7 +38,7 @@ a{
 
 .informacoes{
   width: 70vw;
-  margin: 20px auto;
+  margin: auto;
   padding: 15px 10px;
   display: grid;
   grid-template-columns: 1fr;
@@ -66,21 +66,24 @@ a{
 }
 .nomeDashboard{
   text-align: center;
-  padding: 13px 0px 13px 30px;
+  padding: 10px;
+  margin: 5px auto;
+  background-color: #EF7D00;
+  border-radius: 50px;
+  width: 350px;
+}
+.nomeDashboard:hover{
+  background-color: #EA5A33;
+  font-weight: bolder;
 }
 .linkDashboard{
   color: #ffffff;
-  background-color: #EF7D00;
   font-weight: bold;
   padding: 10px 25px;
   border-radius: 50px;
+  margin: auto;
 }
-.linkDashboard:hover{
-  background-color: #EA5A33;
-}
-.linkDashboard:active{
-  font-weight: bolder;
-}
+
 
 
 
