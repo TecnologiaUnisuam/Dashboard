@@ -20,6 +20,24 @@ a{
 }
 
 
+
+/* Scroll */
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #EF7D00;
+  border-radius: 10px;
+}
+
+
+/* MAIN */
+
 .conteudoTopo{
   width: 100vw;
   margin: 0 auto;
