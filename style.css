@@ -74,7 +74,7 @@ body::-webkit-scrollbar-thumb:hover{
   background-color: #ffffff;  
 }
 .dashboard{
-  padding: 15px;
+  padding: 20px 15px 50px 15px;
 }
 .nomeTopoDashboards{
   font-size: 30px;
@@ -91,6 +91,9 @@ body::-webkit-scrollbar-thumb:hover{
   font-size: 25px;
   font-weight: bold;
   padding: 25px 0px 2px 20px;
+}
+.divDash{
+  margin: auto 0px;
 }
 .nomeDashboard{
   text-align: center;
@@ -133,7 +136,7 @@ body::-webkit-scrollbar-thumb:hover{
 }
 @media only screen and (max-width: 538px){
   .nomeDashboard{
-    width: auto;
+    width: 100%;
   }
   .geral{
     width: 178px;
